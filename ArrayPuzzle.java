@@ -9,7 +9,7 @@ class ArrayPuzzle
 			arr_sum += arr[i];
 		}
 		
-		int n_sum = (n*(n-1))/2;
+		int n_sum = n*(n+1)/2;
 		
 		System.out.println("Missing Element is : "+(n_sum-arr_sum)+"\n");
 	}
@@ -95,12 +95,15 @@ class ArrayPuzzle
 		int find=3;
 		int f_add=6;
 		
+		System.out.println("Elements are fron 1 to 6");
 		System.out.print("Array = ");
 		for(int i=0;i<arr.length;i++)
 		{
 			System.out.print(arr[i]+" ");
 		}
-		System.out.println("\n");
+		System.out.println();
+		System.out.println("Element to be found = "+find);
+		System.out.println("Sum Pair Element = "+f_add+"\n");
 		
 		MissingElements(arr,n);
 		Min_Max(arr);
