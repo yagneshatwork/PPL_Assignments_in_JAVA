@@ -133,15 +133,14 @@ class ArrayPuzzle
 				usedC[index] = true;
 		}
 
-    System.out.print("Merged N Sorted Array = ");
-    for (int i = 0; i < merge.length; i++)
-    {
-        System.out.print(merge[i] + " ");
-    }
-    System.out.println();
-}
+	    System.out.print("Merged N Sorted Array = ");
+	    for (int i = 0; i < merge.length; i++)
+	    {
+	        System.out.print(merge[i] + " ");
+	    }
+	    System.out.println();
+	}
 
-	
 	public static void main(String[] args)  //Main function
 	{
 		int[] arr={4,1,6,3,5};
