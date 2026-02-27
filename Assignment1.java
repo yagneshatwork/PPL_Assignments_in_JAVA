@@ -73,7 +73,7 @@ class student
 	}
 }
 
-class display
+class Assignment1
 {
 	public static void main(String[] args)  //main
 	{
