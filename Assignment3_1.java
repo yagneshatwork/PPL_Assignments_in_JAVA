@@ -1,6 +1,6 @@
 import java.util.*;
 
-class OperationsString
+class Assignment3_1
 {
 	static void uppercase(String text1)  //Convert to uppercase
 	{
