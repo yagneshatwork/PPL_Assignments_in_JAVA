@@ -1,4 +1,4 @@
-class ArrayPuzzle
+class Assignment2
 {
 	static void MissingElements(int[] arr,int n)  //To find missing elements in arr
 	{
